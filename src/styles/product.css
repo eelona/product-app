@@ -1,0 +1,46 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.details {
+    display: flex;
+    margin-top: 20px;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.info {
+    flex-grow: 1;
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.description {
+    margin-bottom: 10px;
+}
+
+.category {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.rating {
+    margin-top: 10px;
+    font-style: italic;
+}
