@@ -42,6 +42,7 @@ function LoginForm() {
               type="text"
               value={username}
               onChange={(e) => setUsername(e.target.value)}
+              placeholder='Username'
             />
           </div>
           <div>
@@ -50,6 +51,7 @@ function LoginForm() {
               type="password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
+              placeholder='Password'
             />
           </div>
           <div className="buttons">
@@ -65,11 +67,14 @@ function LoginForm() {
           <form onSubmit={handleSignUpSubmit}>
             <div>
               <label>New Username:</label>
-              <input type="text" />
+              <input type="text" 
+              placeholder='xxx@xxx.com'/>
             </div>
             <div>
               <label>New Password:</label>
-              <input type="password" />
+              <input type="password" 
+              placeholder='Password'/>
+              
             </div>
             <div className="buttons">
               <button type="submit">Sign Up</button>
