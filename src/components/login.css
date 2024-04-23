@@ -5,6 +5,7 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
   }
   
   .form-group {
@@ -26,7 +27,7 @@
   button {
     width: 100%;
     padding: 10px;
-    background-color: #007bff;
+    background-color:pink;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -42,3 +43,6 @@
     margin-top: 10px;
   }
   
+  .buttons button{
+    margin-top: 10px;
+  }
