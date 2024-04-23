@@ -31,16 +31,17 @@
     margin-bottom: 10px;
 }
 
-.description {
+.description,
+.category,
+.rating {
     margin-bottom: 10px;
 }
 
-.category {
+.category,
+.rating {
     font-style: italic;
-    margin-bottom: 10px;
 }
 
 .rating {
     margin-top: 10px;
-    font-style: italic;
 }
